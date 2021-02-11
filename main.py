@@ -5,4 +5,7 @@ while név !='':
     név = input('Adj meg egy nevet ')
     if név !='':
         nevek.append(név)
+    if len(nevek) == 3:
+        print('Nincs több lehetőség')
+        break    
 print(nevek)        
